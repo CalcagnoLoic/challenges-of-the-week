@@ -1,0 +1,53 @@
+//Mise en place du site
+article, aside, header, footer {
+    padding: 10px 20px 10px 20px;
+}
+header{border-bottom: 2px solid black;}
+header, footer{
+    display: flex;
+    align-content: space-around;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-green-ocean-aquatic-fresh-and-simple-banner-image_145242.jpg);
+    background-size: cover;
+}
+.search{
+    position: relative; 
+    margin-left: auto;
+    border-radius: 15px;
+}
+.nav {align-self: flex-end;}
+.nav {
+    ul {
+        align-content: space-around;
+        display: flex;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+        &:hover{
+            color: white;
+            transform: scale(1.15);
+        }
+    }
+}
+.item {
+    border-left: 1px solid black;
+    font-size: 25px;
+    list-style-type: none;
+    padding-left: 10px;
+    width: 250px;
+}
+main{
+    display: flex;
+    text-align: justify;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    align-content: space-around;
+}
+footer{border-top: 2px solid black;}

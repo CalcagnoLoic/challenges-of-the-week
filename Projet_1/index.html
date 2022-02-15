@@ -9,26 +9,29 @@
     <body>
         <header>
             <img src="assets/img/logo.png" alt="Logo du site" width="200" role="img" aria-label="Logo du site web">
-            <h1>Relevés des tortues Luth</h1>
-            <div role="search" aria-label="Barre de recherche">
-                <input type="text">
-            </div>
-            <nav>
+            <h1>Relevés des tortues caouanne</h1>
+            
+            <nav class="nav">
                 <ul role="list" aria-label="Lien vers les différentes parties du site">
-                    <li role="link" aria-label="Lien vers la section 'à propos de nous">A propos de nous</li>
-                    <li role="link" aria-label="Lien vers la section 'nos missions">Nos missions</li>
-                    <li role="link" aria-label="Lien vers la section 'contact">Contacts</li>
+                    <li role="link" aria-label="Lien vers la section 'à propos de nous" class="item"><a href="#">A propos de nous</a></li>
+                    <a href="#"><li role="link" aria-label="Lien vers la section 'nos missions" class="item">Nos missions</li></a>
+                    <a href="#"><li role="link" aria-label="Lien vers la section 'contact" class="item">Contacts</li></a>
+                    
                 </ul>
             </nav>
+            <div role="search" aria-label="Barre de recherche" class="search">
+                <input type="text" placeholder="Rechercher...">
+            </div>
         </header>
 
         <main>
             <section>
-                <h2 aria-label="Section concernant l'ASBL">A propos</h2>
-                <p >Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                <article>
+                    <h2 aria-label="Section concernant l'ASBL">A propos</h2>
+                    <p >Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
 
-                <table role="table" aria-label="Table de prospection en fonction des mois">
+                    <table role="table" aria-label="Table de prospection en fonction des mois">
                     <thead role="columnheader">
                         <tr colspan="2"> <th>Prospection des sites</th></tr>
                     </thead>
@@ -50,45 +53,39 @@
                             <td role="cell">non</td>
                         </tr>
                     </tbody>
-                    
-                </table>
-
-                <img src="assets/img/eclosion.jpg" alt="Photo d'une tortue Luth" role="img" width="300">
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                    </table>
+                    <img src="assets/img/eclosion.jpg" alt="Photo d'une tortue caouanne" role="img" width="300">
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                </article>
             </section>
-
-            <aside>
-                <h2 aria-label="Section à propos des missions de l'asbl">Nos missions</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </aside>
-
-            <aside>
-                <h2 aria-label="Formulaire pour rester informé des actions">Formulaire de contact</h2>
-                <form action="" role="form" aria-label="Formulaire à remplir">
-                    <label for="prenom" aria-label="Entrée pour le prénom">Prénom :</label> <input type="text" aria-required="true"> * <br>
-                    <label for="nom" aria-label="Entrée pour le nom">Nom :</label> <input type="text" aria-required="true"> * <br>
-                    <label for="adresse" aria-label="Entrée pour l'adresse">Adresse postale :</label> <input type="text"> <br>
-                    <label for="num" aria-label="Entrée pour le numéro">Numéro de téléphone :</label> <input type="text"> <br>
-                    <label for="mail" aria-label="Entrée pour l'adresse mail">Adresse mail :</label> <input type="text" aria-required="true"> * <br>
+                <aside>
+                    <h2 aria-label="Section à propos des missions de l'asbl">Nos missions</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+             
+                    <h2 aria-label="Formulaire pour rester informé des actions">Formulaire de contact</h2>
+                    <form action="#" role="form" aria-label="Formulaire à remplir">
+                    <label for="prenom" aria-label="Entrée pour le prénom" >Prénom :</label> <input type="text" aria-required="true" placeholder="Jean"> * <br>
+                    <label for="nom" aria-label="Entrée pour le nom" >Nom :</label> <input type="text" aria-required="true" placeholder="Bernard"> * <br>
+                    <label for="adresse" aria-label="Entrée pour l'adresse" >Adresse postale :</label> <input type="text" placeholder="Rue des coquelicots, 348"> <br>
+                    <label for="num" aria-label="Entrée pour le numéro">Numéro de téléphone :</label> <input type="text" placeholder="+32 471 00 15 22"><br>
+                    <label for="mail" aria-label="Entrée pour l'adresse mail">Adresse mail :</label> <input type="text" aria-required="true" placeholder="email@exemple.com"> * <br>
                     <p>Les champs marqués d'un astérisque sont obligatoires.</p>
                     <button aria-label="Bouton d'envoie du formulaire">Envoyer</button> <br>
-                    <p>Inscrit à la newsletter? Cocher le bouton si vous voulez être mis à jour de nos futurs relevés des tortues caouannes sur nos côtes!</p>
-                    <input type="checkbox" aria-checked="false" aria-label="Boite de validation pour s'inscrire à la newsletter"> 
+                    <p>Inscrit à la newsletter? Cocher le bouton si vous voulez être mis à jour de nos futurs relevés des tortues caouanne sur nos côtes!</p>
+                    <input type="checkbox" aria-checked="false" aria-label="Boite de validation pour s'inscrire à la newsletter"> NewsLetter
                 </form>
             </aside>
         </main>
 
         <footer>
-            <div>
-                <p>Copyright (c)</p>
-                <div>
+                <div class="foot"><p>Copyright (c)</p></div>
+                <div class="foot">
                     <img src="assets/img/facebook-foot.png" alt="Logo facebook" width="20" role="link">
                     <img src="assets/img/linkedin-foot.png" alt="Logo linkedIn" width="20" role="link">
                     <img src="assets/img/twitter-foot.png" alt="Logo twitter" width="20" role="link">
                 </div>
-                <p>Relevés de tortues Luth</p>
-            </div>
+                <div class="foot"><p>Relevés de tortues Caouanne</p></div>
         </footer>
     </body>
 </html>
