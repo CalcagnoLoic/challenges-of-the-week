@@ -1,10 +1,10 @@
-# challenges-of-the-week
+<h1 align="center"> Challenges of the week </h1>
 
-- Projet 1 : Réalisation d'un site web respectant les attributs ARIA et l'accessibilité pour les lecteurs d'écran
+- `Projet_1`: Creation of a website respecting ARIA attributes and accessibility for screen readers
 
-- Projet 2 : Apprentissage du framework Skeleton: réalisation d'une landing page
+- `Projet_2`: Learning the Skeleton framework: creation of a landing page
 
-- Projet 3 : Apprentissage du framework Pure CSS: réalisation d'une boite mail
+- `Projet_3`: Learning the Pure CSS framework: creation of a mailbox
 
-- Projet 4 : Apprentissage du framework Skeleton: réalisation d'un site d'e-commerce
+- `Projet_4`: Learning the Foundation framework: creating an e-commerce site
 
